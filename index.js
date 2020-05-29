@@ -79,8 +79,9 @@ else{
       }
     }
     else{
-      alert("Congratulations, You Have Reched "+level+" level");
+      
         $("#level-title,  #level-title-m").text("Wrong Aswer !!!"); // lost statement
+        alert("Congratulations, You Have Reched "+level+" level");
         setTimeout(function(){
           $("#level-title").text("Press A key to start again");
         },3000);
